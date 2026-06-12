@@ -1,0 +1,31 @@
+# ---- Visual Studio / MSBuild build output ----
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Ww][Ii][Nn]32/
+[Bb]in/
+[Oo]bj/
+ipch/
+
+# Build artifacts
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+*.lastbuildstate
+*.exp
+*.lib
+
+# Visual Studio cache / IDE state
+.vs/
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# OS files
+.DS_Store
+Thumbs.db

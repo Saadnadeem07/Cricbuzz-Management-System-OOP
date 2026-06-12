@@ -15,34 +15,60 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Date.cpp">
+    <ClCompile Include="src\Date.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="src\Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Team.cpp">
+    <ClCompile Include="src\Team.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Match.cpp">
+    <ClCompile Include="src\Match.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Date.h">
+    <ClInclude Include="src\Date.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
+    <ClInclude Include="src\Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Team.h">
+    <ClInclude Include="src\Team.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Match.h">
+    <ClInclude Include="src\Match.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\teams\Pakistan.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\teams\India.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\teams\England.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\teams\Newzeland.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\players\Players Team 01.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\players\Players Team 02.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\players\Players Team 03.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\players\Players Team 04.txt">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

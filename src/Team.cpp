@@ -31,22 +31,22 @@ void Team::addPlayer(int Team_number)
 	ifstream write;
 	if (Team_number == 1)
 	{
-		write.open("Players Team 01.txt");
+		write.open("data/players/Players Team 01.txt");
 		cout << "\n\t\tTEAM NUMBER 01 PLAYERS DATA UPLOADED";
 	}
 	else if (Team_number == 2)
 	{
-		write.open("Players Team 02.txt");
+		write.open("data/players/Players Team 02.txt");
 		cout << "\n\t\tTEAM NUMBER 02 PLAYERS DATA UPLOADED";
 	}
 	else if (Team_number == 3)
 	{
-		write.open("Players Team 03.txt");
+		write.open("data/players/Players Team 03.txt");
 		cout << "\n\t\tTEAM NUMBER 03 PLAYERS DATA UPLOADED";
 	}
 	else if (Team_number == 4)
 	{
-		write.open("Players Team 04.txt");
+		write.open("data/players/Players Team 04.txt");
 		cout << "\n\t\tTEAM NUMBER 04 PLAYERS DATA UPLOADED";
 	}
 
@@ -179,22 +179,22 @@ void Team::Upload_Team_01_info(int x)
 	ifstream write;
 	if (x == 1)
 	{
-		write.open("Pakistan.txt");
+		write.open("data/teams/Pakistan.txt");
 
 	}
 	else if (x == 2)
 	{
-		write.open("India.txt");
+		write.open("data/teams/India.txt");
 
 	}
 	else if (x == 3)
 	{
-		write.open("England.txt");
+		write.open("data/teams/England.txt");
 
 	}
 	else if (x == 4)
 	{
-		write.open("Newzeland.txt");
+		write.open("data/teams/Newzeland.txt");
 
 	}
 	string s;
@@ -222,22 +222,22 @@ void Team::Upload_Team_02_info(int x)
 	ifstream write;
 	if (x == 1)
 	{
-		write.open("Pakistan.txt");
+		write.open("data/teams/Pakistan.txt");
 
 	}
 	else if (x == 2)
 	{
-		write.open("India.txt");
+		write.open("data/teams/India.txt");
 
 	}
 	else if (x == 3)
 	{
-		write.open("England.txt");
+		write.open("data/teams/England.txt");
 
 	}
 	else if (x == 4)
 	{
-		write.open("Newzeland.txt");
+		write.open("data/teams/Newzeland.txt");
 
 	}
 	string s;

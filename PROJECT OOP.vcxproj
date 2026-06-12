@@ -127,17 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Date.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Match.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Team.cpp" />
+    <ClCompile Include="src\Date.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Match.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Team.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Date.h" />
-    <ClInclude Include="Match.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Team.h" />
+    <ClInclude Include="src\Date.h" />
+    <ClInclude Include="src\Match.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\Team.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\teams\Pakistan.txt" />
+    <None Include="data\teams\India.txt" />
+    <None Include="data\teams\England.txt" />
+    <None Include="data\teams\Newzeland.txt" />
+    <None Include="data\players\Players Team 01.txt" />
+    <None Include="data\players\Players Team 02.txt" />
+    <None Include="data\players\Players Team 03.txt" />
+    <None Include="data\players\Players Team 04.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
